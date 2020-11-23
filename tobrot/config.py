@@ -1,25 +1,28 @@
 from tobrot.sample_config import Config
 
 class Config(Config):
-  TG_BOT_TOKEN = "1456964191:AAFLkOh48xbnOtRUwlvCv-q2JObLA7vJsOg"
-  APP_ID = 1878625
-  API_HASH = "3ab3e48ba126de2eb96ffff39b18fa09"
-  AUTH_CHANNEL = [-1001256038785, -1001408445549, -1001398883981, -1001275361660, -1001273851623]
-  INDEX_LINK = "https://tgindex.hackitabirhasan.workers.dev/3:/Uploads"
-  YTDL_COMMAND = "ytdl@Leechz_Robot"
-  LEECH_COMMAND = "leech@Leechz_Robot"
-  CLEAR_THUMBNAIL = "clearthumbnail@Leechz_Robot"
-  SAVE_THUMBNAIL = "savethumbnail@Leechz_Robot"
-  OWNER_ID = 715779594
+  TG_BOT_TOKEN = "1423901717:AAEOrexGNCwp2RMIxkXyApphq6O3_OUy1UU"
+  APP_ID = 1310683
+  API_HASH = "b735d306fc6ee8773aedf5022224bcea"
+  AUTH_CHANNEL = [-1001265545284]
+  INDEX_LINK = "https://wb2.godseye.workers.dev/"
+  YTDL_COMMAND = "ytdl@wb"
+  LEECH_COMMAND = "leech@wb"
+  CLEAR_THUMBNAIL = "clearthumbnail@wb"
+  SAVE_THUMBNAIL = "savethumbnail@wb"
+  OWNER_ID = 762834285
   RCLONE_CONFIG = """type = drive
-scope = drive
-root_folder_id = 1rWomzK1yVjkqIbC9p9EBBKJgcf3imGr4
-token = {"access_token":"ya29A0AfH6SMCaLwuWkNALk5I4IWBZP6y5Y4lZRkgepXoaf-LvSu2jmNDyLzezwJk-HlgcP1OSiRKqAa9qKsCBMv9O2IMd1ebAwhYdVoNP7jIXMRBDKzD10qfrzq7oGda_Z-vP3Qvl6PQcOYC3x5ecEkU3vMIyqEC2xgANsEnowpSENeU","token_type":"Bearer","refresh_token":"1//0gHp6knwySTm9CgYIARAAGBASNwF-L9IrRPO94mU1d9kBkUu1BbYrkA_EMhGXcCiHXGULiAZDg5BmaSxhrtALRfBmVpiotPEtK6Q","expiry":"2020-11-11T13:38:54.4701885+06:00"}
-team_drive = 1rWomzK1yVjkqIbC9p9EBBKJgcf3imGr4"""
-  DESTINATION_FOLDER = ""
-  GLEECH_COMMAND = "gleech@Leechz_Robot"
-  TELEGRAM_LEECH_COMMAND_G = "tleech@Leechz_Robot"
-  PYTDL_COMMAND_G = "pytdl@Leechz_Robot"
+  scope = drive
+client_id = 703570237332-d2jhojadnlbak1p9989i92b20a258toc.apps.googleusercontent.com
+client_secret = AVU8K6FQHalw5yJcCmFqHdrs
+root_folder_id = 1AMBKzAoP-NowIQTfIe7hJXrafH3czKXq
+token = {"access_token":"ya29.a0AfH6SMDq2w2TIxN6ue1HwlHaTyZTeQlntOzakgsye-HF8VFCW4RumHyi1lLZbWWKa261UUelEJs1oI5NR1hOUalM5S-st6w9rprVdVF-49HswonBciMaq6_LPq103RjR5VHaB0f4PdLb8pad84p-FGlw84UD07I4yyV830oSPYo","token_type":"Bearer","refresh_token":"1//0geJJJQN9I89lCgYIARAAGBASNwF-L9IrJD274Z7yYK8146U3w5_25QewCj5PEtT_ydGzB4BvZ8vvSkT3RE7XDl53KpOS7W0vZgM","expiry":"2020-11-23T09:54:47.975543562+05:30"}
+team_drive = 0AM0QbyCXLvTgUk9PVA
+"""
+  DESTINATION_FOLDER = "leech"
+  GLEECH_COMMAND = "gleech@wb"
+  TELEGRAM_LEECH_COMMAND_G = "tleech@wb"
+  PYTDL_COMMAND_G = "pytdl@wb"
   MAX_TG_SPLIT_FILE_SIZE = 2097152000
-  CANCEL_COMMAND_G = "cancel@Leechz_Robot"
-  STATUS_COMMAND = "status@Leechz_Robot"
+  CANCEL_COMMAND_G = "cancel@wb"
+  STATUS_COMMAND = "status@wb"
